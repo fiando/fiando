@@ -53,7 +53,6 @@ I am a **Senior Backend Engineer** with 8+ years of experience architecting scal
 An AI-driven real estate workspace designed for Indonesian agents and property owners to convert informal WhatsApp text into professional, structured listings.
 
 - **What it does:** Uses AI text parsing to extract property specifications, implements a natural language search toggle ("_rumah murah di Jakarta Selatan dekat sekolah_"), features a built-in CRM to track leads through sales pipelines, and handles IDR payments via the DOKU gateway.
-- **Architecture Highlights:**
 - **Serverless Infrastructure:** Built entirely on AWS Lambda (Go 1.24) using AWS SAM for cost-efficient, auto-scaling performance.
 - **The Stack:** Go 1.24, Next.js 15 (App Router), Amazon DynamoDB, Amazon S3, AWS SAM, OpenAI GPT-4 mini, DOKU API, Tailwind CSS.
 - 🔗 [Explore the Propti Codebase & Local Setup Guide](https://github.com/fiando/propti-chat-listing)

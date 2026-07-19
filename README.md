@@ -39,7 +39,7 @@ I am a **Senior Backend Engineer** with 8+ years of experience architecting scal
 - 📸 **[Autonomous Content Engine (Live Sandbox)](https://www.instagram.com/resonansi_sm/)** — See the live production output of the background worker pipeline generating and publishing stories programmatically from real-time occupancy drop metrics.
 - 🚀 **[Mermind Official Channel](https://www.instagram.com/mermind.official/)** — The official B2B positioning layer utilizing LLM-driven state graphs to autonomously spin up product graphics and feature layouts.
 
-### 🌐 Propti (Rental Management SaaS Module)
+### 🌐 Propti (Real Estate Rental Management SaaS Module)
 
 **A premium property rental management application serving as the foundational module of the Propti SaaS ecosystem.**
 
@@ -47,6 +47,16 @@ I am a **Senior Backend Engineer** with 8+ years of experience architecting scal
 - **The Architecture:** Built as a serverless-ready Turbo monorepo featuring automated database migrations, continuous deployment pipelines, and custom payment gateway integration.
 - **The Stack:** FastAPI, Next.js, Python, TypeScript, Turbo, AWS Lambda, Neon Serverless Postgres, Docker.
 - 🔗 [Explore Codebase & Setup Guide](https://github.com/fiando/propti-real-estate-management-saas)
+
+### 🌐 Propti (AI-Powered Real Estate Chat to Listing SaaS Module)
+
+An AI-driven real estate workspace designed for Indonesian agents and property owners to convert informal WhatsApp text into professional, structured listings.
+
+- **What it does:** Uses AI text parsing to extract property specifications, implements a natural language search toggle ("_rumah murah di Jakarta Selatan dekat sekolah_"), features a built-in CRM to track leads through sales pipelines, and handles IDR payments via the DOKU gateway.
+- **Architecture Highlights:**
+- **Serverless Infrastructure:** Built entirely on AWS Lambda (Go 1.24) using AWS SAM for cost-efficient, auto-scaling performance.
+- **The Stack:** Go 1.24, Next.js 15 (App Router), Amazon DynamoDB, Amazon S3, AWS SAM, OpenAI GPT-4 mini, DOKU API, Tailwind CSS.
+- 🔗 [Explore the Propti Codebase & Local Setup Guide](https://github.com/fiando/propti-chat-listing)
 
 ---
 

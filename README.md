@@ -85,3 +85,17 @@ _Improved lock and device reliability by standardizing event handling, stabilizi
 ---
 
 [View my deeply detailed Case Studies & Architecture breakdowns ↗](https://docs.bobbyfiando.com)
+
+### 🎮 Experimental AI Game Prototyping
+
+**A collection of 2D games and simulations built to explore AI-assisted development, cross-platform compilation, and rapid prototyping workflows.**
+
+- **Bake Tycoon (Phaser 3 & TypeScript)** — A complete, data-driven bakery idle factory simulator featuring complex progression algorithms and native Android compilation.
+  - **The Tech:** TypeScript, Phaser 3, Webpack, Capacitor (Android WebView wrapper), HTML5 Canvas.
+  - **The Scope:** Explored prompt engineering to generate heavy mathematical logic loops (exponential cost scaling, multi-tier prestige multipliers, and idle loop state tracking).
+  - 🔗 **[View Repository](https://github.com/sf-play/bake-tycoon)**
+
+* **Reflex Ops (Godot 4 & GDScript)** — A lightweight, mobile-first reflex drill and warmup game for competitive players, built using a modern game engine loop.
+  - **The Tech:** Godot 4.6 (Mobile Renderer), GDScript, Android SDK/NDK, Android Export System.
+  - **The Scope:** Leveraged LLM pair-programming to rapidly design clean UI states, handle state timers, and execute math checks for real-time player accuracy and performance rating tiers.
+  - 🔗 **[View Repository](https://github.com/fiando/reflex-ops)**

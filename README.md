@@ -4,21 +4,49 @@ I am a **Senior Backend Engineer** with 8+ years of experience architecting scal
 
 - 📍 Based in Yogyakarta, Indonesia (Open to Remote work)
 - 🌐 Portfolio & Case Studies: [docs.bobbyfiando.com](https://docs.bobbyfiando.com)
-- 💼 Connect with me: [LinkedIn](https://linkedin.com/in/bobbyfs) | [Stack Overflow](https://stackoverflow.com)
+- 💼 Connect with me: [LinkedIn](https://linkedin.com/in/bobbyfs)
 - ✉️ Reach out: bobby@bobbyfiando.com
 
 ---
 
 ## 🛠️ My Toolbox
 
-| Category | Technologies |
-| --- | --- |
-| **Languages** | TypeScript, Node.js, JavaScript, PHP, Python, SQL |
-| **Backend Frameworks** | NestJS, Laravel, GraphQL, Express |
-| **Databases & Caching** | PostgreSQL, MySQL, MongoDB, Redis |
-| **Cloud & DevOps** | AWS (Lambda, EC2, ECS, S3, RDS, SQS, SNS), GCP, Apache Kafka, Docker, Terraform, GitHub Actions |
-| **AI & Orchestration** | OpenAI, Google Gemini, LangGraph |
-| **Architecture & Tools** | SOLID, Event-Driven Architecture, Microservices, Prisma, REST APIs, TDD |
+| Category                 | Technologies                                                                                    |
+| ------------------------ | ----------------------------------------------------------------------------------------------- |
+| **Languages**            | TypeScript, Node.js, JavaScript, PHP, Python, SQL                                               |
+| **Backend Frameworks**   | NestJS, Laravel, GraphQL, Express                                                               |
+| **Databases & Caching**  | PostgreSQL, MySQL, MongoDB, Redis                                                               |
+| **Cloud & DevOps**       | AWS (Lambda, EC2, ECS, S3, RDS, SQS, SNS), GCP, Apache Kafka, Docker, Terraform, GitHub Actions |
+| **AI & Orchestration**   | OpenAI, Google Gemini, LangGraph                                                                |
+| **Architecture & Tools** | SOLID, Event-Driven Architecture, Microservices, Prisma, REST APIs, TDD                         |
+
+---
+
+## 🏆 Featured Project
+
+### 🌟 Mermind — Production-Grade AI SaaS
+
+**An autonomous platform that transforms music studio operations by eliminating empty time slots and manual admin work.**
+
+- **What it does:** Features a 24/7 hallucination-free AI booking assistant and a decoupled background worker that dynamically detects low occupancy to auto-publish promotional Instagram Stories.
+- **Architecture Highlights:** Built with strict multi-tenant database isolation, asynchronous token streaming for low-latency UX, and cost-optimized OpenAI Batch processing (cutting token costs by 50%).
+- **The Stack:** FastAPI, Next.js 14, Python, AWS Lambda, Postgres, Redis, OpenAI API.
+
+#### 🔗 Production & Live Demos
+
+- 🌐 **[Live Platform Landing Page](https://mermind.com)** — Explore the core SaaS system, multi-tier tenant white-label capabilities, and automated marketing triggers.
+- 🤖 **[Interactive Booking Demo](https://mermind.com/b/resonansi-sm)** — Test the zero-hallucination customer chat assistant natively executing real-time database lookups for multi-unit availability.
+- 📸 **[Autonomous Content Engine (Live Sandbox)](https://www.instagram.com/resonansi_sm/)** — See the live production output of the background worker pipeline generating and publishing stories programmatically from real-time occupancy drop metrics.
+- 🚀 **[Mermind Official Channel](https://www.instagram.com/mermind.official/)** — The official B2B positioning layer utilizing LLM-driven state graphs to autonomously spin up product graphics and feature layouts.
+
+### 🌐 Propti (Rental Management SaaS Module)
+
+**A premium property rental management application serving as the foundational module of the Propti SaaS ecosystem.**
+
+- **The Core:** Automates multi-tenant contract lifecycles, billing invoice tracking, and real-time financial cashflow dashboards for property owners.
+- **The Architecture:** Built as a serverless-ready Turbo monorepo featuring automated database migrations, continuous deployment pipelines, and custom payment gateway integration.
+- **The Stack:** FastAPI, Next.js, Python, TypeScript, Turbo, AWS Lambda, Neon Serverless Postgres, Docker.
+- 🔗 [Explore Codebase & Setup Guide](https://github.com/fiando/propti-real-estate-management-saas)
 
 ---
 
@@ -26,21 +54,21 @@ I am a **Senior Backend Engineer** with 8+ years of experience architecting scal
 
 ### 💳 One-Click Checkout
 
-*Rebuilt one-tap checkout to reduce latency, improve payment reliability, and support safer rollout in production.*
+_Rebuilt one-tap checkout to reduce latency, improve payment reliability, and support safer rollout in production._
 
 - **Tech Stack:** REST API, Laravel, Payment Gateways, Queue Workers, Feature Flags
 - **Focus:** Latency reduction, payment isolation patterns, and zero-downtime progressive canary rollouts.
 
 ### 🧠 AI Homework App
 
-*Improved AI homework workflows with stronger quality checks, clearer processing stages, and safer publishing controls.*
+_Improved AI homework workflows with stronger quality checks, clearer processing stages, and safer publishing controls._
 
 - **Tech Stack:** NestJS, Laravel, PostgreSQL, AWS Lambda, OpenAI
 - **Focus:** Prompt pipeline reliability, background workers, and content safety state machines.
 
 ### 🏠 IoT Smart Home App
 
-*Improved lock and device reliability by standardizing event handling, stabilizing recurring access, and expanding alert coverage.*
+_Improved lock and device reliability by standardizing event handling, stabilizing recurring access, and expanding alert coverage._
 
 - **Tech Stack:** NestJS, GraphQL, PostgreSQL, Redis, Apache Kafka
 - **Focus:** High-throughput telemetry data processing, distributed locking, and real-time streaming infrastructure.
